@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(0, 0, 255, 0.212);
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.marsh{
+    background-color: rgba(125, 164, 206, 0.123);
+    width: 80%;
+    margin: 0 auto;
+}
+h1.title{
+    text-transform: uppercase;
+    color: black;
+    text-align: left;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 24px;
+}
+h1.title:hover{
+    text-decoration: overline;
+    color: rgb(228, 223, 215);
+    font-weight: 900;
+    transition: 4s ease-in-out;
+    
+}
+/* Navigation Bar Styles */
+.navbar{
+    background-color: rgb(173, 120, 223);
+    overflow: hidden;
+    
+}
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    border-right: 2px solid rgb(80, 72, 72);
+}
+.navbar ul li a{
+    text-decoration: none ;
+    color: rgb(63, 63, 148);
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 16px;
+}
+.navbar ul li:hover{
+    background-color: whitesmoke;
+}
+.navbar ul li:hover a{
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    margin-left: 4px;
+    transition: .4s ease-in-out;
+}
